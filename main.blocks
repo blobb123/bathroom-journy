@@ -1,0 +1,160 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="Tz7Rt^$QDmN+|7#8F-Od">Player</variable><variable type="KIND_SpriteKind" id="JA^9fyt|LQ=lk9:B:=Q-">Projectile</variable><variable type="KIND_SpriteKind" id="gaBDZ`8(j^gS^B19X|nJ">Food</variable><variable type="KIND_SpriteKind" id="Zq)I;l*GF2j#iG?q]:zK">Enemy</variable><variable id="UGBBnGQXk9Y]BsoJlo6_">mySprite</variable><variable id="-ma8BU8LmgSj|Tp$*g;S">mySprite2</variable><variable id=",#h.WB$VgZ?{:e]QXg^m">les toilet</variable><variable id="!bH}?]IjmtfJ^s4p,+*?">sqoosh the poop</variable></variables><block type="pxt-on-start" id="MOv7P?FTgk;0R!?,CHC5" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="p3(j73+K|^O-nf9,IT5m"><value name="img"><shadow type="background_image_picker" id="v1m2MfJRO($Ej[I~1KU+"><field name="img">img`
+1111111111111111111aaaaaaaaaa999999999999999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaa1111111111111111111111111111111111111111111111111111111111111111111111
+11111111111111f1111aaaaaaaaa9999999999999999999999999999999999aaacaaaaaaaaaaaaaaaaaaaaaaaa11111111111111111111111111111111111111111111f1111111111111111111111111
+11111111111111f1111aaaaaaaaa9999999999999999999999999999999999aaacaaaaaaaaaaaaaaaaaaaaaaaa11111111111111111111f11111111111111111111111f1111111111111111111111111
+1111111111111ff111aaaaaaaaaaa99999999999999999999999999999999aaaacaaaaaaaaaaaaaaaaaaaaaaaa11111111111111111111f11111111111111111111111f1111111111111111111111111
+1111111111111f1111aaaaaaaaaaa99999999999999999999999999999999aaaacaaaaaaaaaaaaaaaaaaaaaaaaa1111111111111111111f11111111111111111111111f1111111111111111111111111
+1111111111111f111aaaaaaaaaaaaa9999999999999999999999999999999aaaacaaaaaaaaaaaaaaaaaaaaadaaa1111111111111111111f11111111111111111111111f1111111111111111111111111
+1111111111111f111aaaaaaaaaaaaa999111999999999999999999999999aaaaacaaaaaaaaaaaaaaaaaaaadaa1111111111111111111111f1111111111111111111111f1111111111111111111111111
+1111111111111f111aaaaaaaaaaaaaa91119199999999999999999999999aaaaacaaaaaaaaaaaaaaaaaaaadaa1111111111111111111111f11111111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaaaaaa119999919999999999999999999999aaaaacaaaaaaaaaaaaaaaaaaadaa11111111111111111111111f11111111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaacaaa19999991999999999999999999999aaaaaacaaaaaaaaaaaaaaaaaadaaa111111111111111111111111f1111111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaacaaaaa999999119999999999999999999aaaaaacaaaaaaaaaaaaaaaaaadaa1111111111111111111111111f1111111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaacaaaa99999999111199999999999999aaaaaaacaaaaaaaaaaaaaaaaadaaa1111111111111111111111111f1111111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaacaaada9999999999911119999999999aaaaaaacaaaaaaaaaaaaaaaaadaa1111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1
+1111111111111f11faaaaaaaaaaacaada9991999999999911999999999aaaaaacaaaaaaaaaaaaaaaaadaaa11111111111ff11111111111111f111111111111111111111f111111111111111111111111
+1ffff1ffff111f11faaaaaaaaaaacaada999911911999999911999999aaaaaaacaaaaaaaaaaaaaaaaadaa1111111111ff1111111111111111f111111111111111111111f111111111111111111111111
+1111111111fffffffaaaaaaaaaaacaada999991119199999999199999aaaaaaacaaaaaaaaaaaaaaaadaaff11111ffff111111111111111111f111111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaaaacada999991119919999999911199aaaaaaacaaaaaaaaaaaaaaaadaaff111ff11111111111111111111111f11111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaaaacada99999911999199999999991aaaaaaaacaaaaaaaaaaaaaaaadaffffff1111111111111111111111111f11111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaaaacada19999911199919999919991aaaaaaaacaaaaaaaaaaaaaaaaaaaff1111111111111111111111111111f11111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaaaacad119999911199991999191999aaaaaaaacaaaaaaaaaaaaaaaaaaaff1111111111111111111111111111f11111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaaaaccad19199991111999199999199aaaaaaaacaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaaacccadd19199991911119919999199aaaaaaaacaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaaccaaaaa199911999191111991999199aaaaaaaacaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaacaaaaa9199911199191111999199199aaaaaaaacaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaacaaaaa919999111919191119919119aaaaaaaacaaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f11faaaaaaacaaaa9199999111191199111991119aaaaaaaacaaaaaaaaaaaaaaaaaaaaaf1f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaa99199999911911999119199199aaaaaaaacaaaaaaaaaaaaaaaaaaaaf11f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaa9919999991911119991119919aaaaaaaaacaaaaaaaaaaaaaaaaaaaaf11f1111111111111111111111111111f1111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaa9111111111999999999111911aaaaaaaaacaaaaaaaaaaaaaaaaaaaaf11f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaa9999911111999999999999111aaaaaaaaacaaaaaaaaaaaaaaaaaaaf111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaa9999999991111111999999991aaaaaaaaacaaaaaaaaaaaaaaaaaaaf111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1fffff1111111f111aaaaaaacaaa99999999999999991119999991aaaaaaaacaaaaaaaaaaaaaaaaaaaf111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+111111fffffffff11aaaaaaacaaa99999999999999999991999991aaaaaaaacaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f199aaaaaaacaaa99999999999999999991111111aaaaaaaaaaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaaa999999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaa9991f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaacaaaa999999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaa111ffff111111111111111111111111111f11111111111fffffffffffffffffffffffff1111111
+1111111111111f111aaaaaaaacaaaa99999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaaafaa1111f11fffff11111111111111111fffffffffffffffff1111111f11111111111111111fffff11
+1111111111111f111aaaaaaaacaaaa99999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaafaaa1111f1111111fffffffffffffffff11111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaacaaaa99999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaaafaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaafaaaaaa99999999999999999999999aaaaaaaaaaaaaaaaaaaaaaaafaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaafaaaaa99999999999999999999999aaaaaaaaaaaaaaaaaaaaaaafaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaaaaaa999999999999999999999999aaaaaaaaaaaaaaaaaaaaafaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaafaaa999999999999999999999999aadaaaaaaaaaaaaaaaaafaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaaaaaaa999999999999999999999999aadaaaaaaaaaaaaaaafaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaaaafaa999999999999999999999999aaadaaaaaaaaaaaaafaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaadddaaaaaafa999999999999999999999999aaadaaaaaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f111aaaaaaaaaaaaaa9999999999999999999999999aaadaaaaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+1111111111111f1111aaaaaaaaaaaaa1999999999999999999999999aaaadaaaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+fffffffffffffffffffffffaaaaaaaa111ff999999999999999999999aaaaddaaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+11f11111f1111f11111111111fffffff1111fff999999999999999999aaaaaadaaaaaaaaaaaaaaaaaa1111f11111111111111111111111111111f111111111111111111f111111111111111111111111
+11f1ff111f111f11111111111111111ffffffffffffffff999999999999aaaaaddddddddaaaaaaaaa11111f11111111111111111111111111111f11111111111111111f1111111111111111111111111
+1f11f1f11f111f11111111111111111f1111111111fffffffffffffffff1aaaaaaaaaaaadddddaaa111111f11111111111111111111111111111f11111111111111111f1111111111111111111111111
+1f11f1f11f111f11111111111111111f111111111111111111111fffff11f1aaaaaaaaaaaaaaaaa1111111f11111111111111111111111111111f11111111111111111f1111111111111111111111111
+1f11f11f1f111f11111111111111111f11111111111111111111111111ffffffaaaaaaaaaaaaaa11111111f11111111111111111111111111111f11111111111111111f1111111111111111111111111
+1f11f11f9f111f11111111111111111f1111111111111111111111111111f111ffaaaaaaa1111111111111f11111111111111111111111111111f11111111111111111f1111111111111111111111111
+1f11f11199111f11111111111111111f1111111111111111111111111111f11111111111ffffffff11111ff11111111111111111111111111111f11111111111111111f11111111111ffffffff111111
+1f11f11199111f11111111111111111f1111111111111111111111111111f1111111111111111111ffffff111111111111111111111111111111f11111111111111111f111111111ffffffffff111111
+df11fddd999ddfdddddddd111111111f1111111111111111111111111111f111111111111111111111111ffffff1111111111111111111111111f111111111111111fffffffffffffffffffffff11111
+9f11fddd9d9dd99ddddddddddd11111f1111111111111111111111111111f1111111111111111111111111f1111fffff1111111111111111111f1111111111ffffff11f1111111ffffffffffffffff11
+9f11f9999999999999dddddddddd111f1111111111111111111111111111f1111111111111111111111111f111111111ffffff1111111111111f11111fffff11111111f1111111ffffffffffffffff11
+9f11f999999999999999ddddddddd11f1111111111111111111111111111f1111111111111111111111111f111111111111111fffff11111111f1ffff1111111111111f1111111f9fffff1ffffffff11
+df11f999999999999999999dddddd11f1111111111111111111111111111f1111111111111111111111111f11111111111111111111ffffffffff11111111111111111f1111111f9fff111ffffffff11
+dff1f9999999999999999d9dddddd11f1111111111111111111111111111f11111111111111111111111111f111111111111111111111111111f111111111111111111f1111111f9fff11111fffffff1
+ddfffdddddddd9999999999dddd1111f1111111111111111111111111111f11111111111111111111111111f111111111111111111111111111f111111111111111111f1111111191111111111fffff1
+ddddddddddddddddddddddddddd1111f1111111111111111111111111111f11111111111111111111111111f111111111111111111111111111f111111111111111111f1111111999111111111fffff1
+ddddddddddddddddddddddddd111111f1111111111111111111111111111f11111111111111111111111111f11111111111111111111111111f1111111111111111111f1111111999111111111fffff1
+ddddddddddddddddddddddd11111111f11111111111111111111111111111f1111111111111111111111111f11111111111111111111111111f1111111111111111111f1111111999111111111fffff1
+dddddddddddddddddd11f1111111111f11111111111111111111111111111f1111111111111111111111111f11111111111111111111111111f1111111111111111111f1111111999111111111fffff1
+ddddddddddddddddd1111ff1111111f111111111111111111111111111111f1111111111111111111111111f11111111111111111111111111f111111111111111111ff1111111999111111111fffff1
+ddddddddddddddddd111111ff11111f11111111111111111111111111111f11111111111111111111111111f1111111111111111111111111f111111111111111111ff11111111999111111111fffff1
+ddddddddddddddddd11111111ff111f11111111111111111111111111111f11111111111111111111111111f111111111111111111111111f1111111111111111111f111111111999111111111fffff1
+ddddddddddddddddd1111111111ff1f11111111111111111111111111111fffffffffffffffffffffffff11f11111111111111111111111f111111111111111111111111111111999111111111fffff1
+dddddddddddddddd1111111111111ff1111111111fffffffffffffffffff11111ddddddddddddddddddddffffff11111111111111111ffff111111dddd11111111111111ddddddd999ddddddddfffffd
+dddddddddddddddd11111111111111fffffffffff111111111111111111f11111ddddddddddddddddddddddfddddddddddddddddddddddddddddddddddddddddddddddddddddddd999ddddddddfffffd
+dddddddddddddddd11111111111111f1111111111111111111111111111f11111dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd999ddddddddfffffd
+dddddddddddddddd111111111111111f111111111111111111111111111f111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd99999dddddddddddddd
+dddddddddddddddd111111111111111f11111111111111111111111111f111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd99d9999ddddddddddddd
+dddddddddddddddd111111111111111f11111111111111111111111111f111111dddddddd99999999999999999999999999999999999999999999999999999999999999999999999999999999999dddd
+dddddddddddddddd111111111111111f11111111111111111111111111f111111ddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999d
+dddddddddddddddd111111111111111f1111111111111111111111111f1111111ddddddd9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111f1111111111111111111111111f111111dddddddd9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111f1111111111111111111111111f111111ddddddd99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111f111111111111111111111111f1111111dddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd1111111111111111f11111111111111111111111f111111ddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd1111111111111111f111111111111111111111ff1111111ddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd1111111111111111ff11111111111111111111f11111111ddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+ddddddddddddddddfffffffffffffffffff11111111111111111111f1111111ddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd11111111111111111f1fff11111111111111111f111111dddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd11111111111111111f1111ff111111111111111f111111dddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111111f1111fffff11111111111f111111dddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111111f111111111fffffffffffffff11ddddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd111111111111111111f1111111111111111111f1111ffffddddddd999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd1111111111111111111f111111111111111111f111111dddddddddd99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+dddddddddddddddd1111111111111111111f111111111111111111f111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd99999999999999
+dddddddddddddddd1111111111111111111f111111111111111111f111111ddd1ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd999999
+dddddddddddddddd1111111111111111111f111111111111111111f11111111dd1111111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd1111111111111111111f111111111111111111f11111111dddddddddddd11111111111dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd1111111111111111111f111111111111111111f11111111ddddddddddddddddddddddd11111111111111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd11111111111111111111f11111111111111111f11111111dddddddddddddddddddddddddddddddddddddddd1111111111111111111111111111ddddddddddddddddddddddddddddd
+dddddddddddddddd11111111111111111111f11111111111111111f11111111dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111dddddddddddddddddddddd
+dddddddddddddddd11111111111111111111f11111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111d11ddddddd
+dddddddddddddddd11111111111111111111f11111111111111111f11111111dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111
+dddddddddddddddd11111111111111111111f11111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f11111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f11111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd11fff1111111111111111f11111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd11111fffff11111111111f11111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd1111111111ffffff11111f11111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd1111111111111111fffffff1111111111111111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1fffffffffffff111f1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f11111111111111ffff1111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f11111111111111111ffffff11ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f11111111111111111f11111ffddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111111111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd111111111111111111111f1111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddd11111111111111111111111111111111111111f11111111ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+`</field><data>{"commentRefs":[],"fieldData":{"img":"v1m2MfJRO($Ej[I~1KU+"}}</data></shadow></value><next><block type="variables_set" id="$(X_fqV_|*r8w/5kvd4b"><field name="VAR" id="UGBBnGQXk9Y]BsoJlo6_">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="HhSzT)Ww{nB92wM2+TTV"><value name="img"><shadow type="screen_image_picker" id="t@sVKIshlqd)-^daXpup"><field name="img">img`
+....................
+....................
+....................
+........dddd........
+........d111d.......
+........d1d1d.......
+........d111d.......
+....ddddd111d.......
+...d11111111d.......
+..d166666111d.......
+..d116661111d.......
+...d1111111d........
+....d111111d........
+.....d1111d.........
+.....d1111d.........
+.....d1111d.........
+.....dddddd.........
+....................
+....................
+....................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"t@sVKIshlqd)-^daXpup"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=")UvF]1!GzVHz++0ErlAq"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="4rJyo:JWJ17}eP}V*W:J"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="uv-P}6SBLfW%AP!9jD+X"><field name="VAR" id="UGBBnGQXk9Y]BsoJlo6_">mySprite</field></block></value><next><block type="variables_set" id="vF|_wvmzTw1?a`wkCv`C"><field name="VAR" id="!bH}?]IjmtfJ^s4p,+*?">sqoosh the poop</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="9?{fH_bhg!pnKHFWMi+%"><value name="img"><shadow type="screen_image_picker" id="YL9pyE;G289)4.@3RobV"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . e e . . . . . . . . . . . . 
+. . . e e . . . . . . . . . . . 
+. . . e e e . . . . . . . . . . 
+. . . . e e e . . . . . . . . . 
+. . . . . e e e e . . . . . . . 
+. . . . . e e e e e e . . . . . 
+. . . . e f e e e e e e e e . . 
+. . e e e e e e e e e e e e . . 
+. e e e e f e e f e e f e e e . 
+. e e e e e f f e e e e e e e . 
+. e e e e e e e e e e e e e e . 
+. e e e e e e e e e e e e e e . 
+. . e e e e e e e e e e e e . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"YL9pyE;G289)4.@3RobV"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="1XCYb8kx8B$76K;cnf}7"><field name="MEMBER">Food</field></shadow></value></block></value><next><block type="variables_set" id="{wx`Wbk[BN4GOzExUEV]"><field name="VAR" id=",#h.WB$VgZ?{:e]QXg^m">les toilet</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="lUq6tyg9~N+r_6i{O[Ab"><value name="img"><shadow type="screen_image_picker" id="Z[m2$idc({n)CLnvL8HY"><field name="img">assets.image`poopie`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0WGPi{m|SLxh#1*?s^cu"><field name="MEMBER">Food</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block><block type="forever" id="2(oBHva/.DHD}?2i-K2Q" x="360" y="0"><statement name="HANDLER"><block type="playMelody" id="4zsn9gWmb3]jq0i={iPj"><value name="melody"><shadow type="melody_editor" id="QZ~sI^1ynWs[Kt2b`K!7"><field name="melody">"D F C C5 E G D B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="v/CiAv,;?oyhW}s,p(^-"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">200</field></shadow></value></block></statement></block><block type="spritesoverlap" id="!JP]yB#YAo^DiEoI%vbs" x="70" y="530"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="8Wwpl^]-/RY5td/%}bg?"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="^m;vSoq!1iH[_TPRQXVb"><field name="MEMBER">Food</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="%J=2%8q=_:4|_:}yeD.G"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="~{H{0wnf]cCaRlRx:)A*"><field name="MEMBER">Food</field></shadow></value><statement name="HANDLER"><block type="hudChangeScoreBy" id="-*8V:M]N,_!)V}ETS|1["><value name="value"><shadow type="math_number" id=")QD6D/57VhWr|OKi9/OR"><field name="NUM">1</field></shadow></value><next><block type="spritesetpos" id="];$NEx^H8c%0@6,?O(:1"><value name="sprite"><block type="variables_get" id="BRVC.,Mj]*jl/Qdn1_[l"><field name="VAR" id="!bH}?]IjmtfJ^s4p,+*?">sqoosh the poop</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">0</field></shadow><block type="device_random" id="k.JrSzaJYr{=Nbe}W~MK"><value name="min"><shadow type="math_number" id="j#x=psKhy(eO0Um]kA?7"><field name="NUM">10</field></shadow></value><value name="limit"><shadow type="math_number" id="?/qN0Czt:S.5w7RaH[Be"><field name="NUM">160</field></shadow></value></block></value><value name="y"><shadow type="positionPicker"><field name="index">0</field></shadow><block type="device_random" id="%OqAk?re::ye?#HEX?=M"><value name="min"><shadow type="math_number" id="2/?k|.JJt_H4?QSfTz_|"><field name="NUM">10</field></shadow></value><value name="limit"><shadow type="math_number" id="J3Hdo4XFAE4^n#!UQ:9)"><field name="NUM">120</field></shadow></value></block></value><next><block type="gamecountdown" id="[0#cbcRHs:UE%+4}$?5I"><value name="duration"><shadow type="math_number" id="acglS0m!Hj%ERg^sRE/X"><field name="NUM">5</field></shadow></value><next><block type="mixer_play_sound" id="(^@YY/`H-=LK5sU;a.Wb"><field name="sound">music.zapped</field></block></next></block></next></block></next></block></statement></block><block type="spritesoverlap" id="E0mYG6F@_rHQ1V*3EJ@)" x="130" y="950"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="ijMF5xlGF#yt.Z;Vvv7#"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="#(@I(]wexLqAA2iS(d3Q"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="HiDqX+JCj.txf^MG*a.l"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="J)m0$2`~Ku?KoYZILOwJ"><field name="MEMBER">Food</field></shadow></value><statement name="HANDLER"><block type="hudChangeScoreBy" id="ycU]1qH56=86*sWf@q,M"><value name="value"><shadow type="math_number" id="MyO~uN;Ln~C!`r)=iweL"><field name="NUM">1</field></shadow></value><next><block type="spritesetpos" id="C9T#L*--*;tYvyxXs#j#"><value name="sprite"><block type="variables_get" id="`YhUVz|zpO_u+!6Bt=)g"><field name="VAR" id=",#h.WB$VgZ?{:e]QXg^m">les toilet</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">0</field></shadow><block type="device_random" id="`(Dv[-Xkiima-QNR7M[_"><value name="min"><shadow type="math_number" id="eF1YIh;8YVx#n[rJI({4"><field name="NUM">10</field></shadow></value><value name="limit"><shadow type="math_number" id="`(*jRequzozab0uWO00F"><field name="NUM">160</field></shadow></value></block></value><value name="y"><shadow type="positionPicker"><field name="index">0</field></shadow><block type="device_random" id="P~t4PDU,rT}0Y;G{tBuA"><value name="min"><shadow type="math_number" id="pP/hC/e5X?5.R){n7w!C"><field name="NUM">10</field></shadow></value><value name="limit"><shadow type="math_number" id="88Is*Cc)#:rNytfd]9Pb"><field name="NUM">120</field></shadow></value></block></value><next><block type="gamecountdown" id="2C{)+^)g4ce17P1q3hV,"><value name="duration"><shadow type="math_number" id="DVZ=So%v,jepJ4s5BL2l"><field name="NUM">10</field></shadow></value><next><block type="mixer_play_sound" id="m$L^uE@5uav,lYc!l)+0"><field name="sound">music.beamUp</field></block></next></block></next></block></next></block></statement></block></xml>

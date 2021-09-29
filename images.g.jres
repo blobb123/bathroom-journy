@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAA4O4OAAAAAADu7g4AAAAA4O7uDgAAAADu7+4OAAAA7u7u7w4AAODu7u7+DgAAAA7u7v4OAAAAAPDu/g4AAAAA4O7vDgAAAAAA4O4OAAAAAAAA7gAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "poopie"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
